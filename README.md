@@ -15,6 +15,7 @@ It will also display some touristic characteristics of the country and some poin
     were created as part of a personal project that I wanted to do to develop a touristic map for the country and showcase the different attractions.
 * Extremely brief description of all pre-processing
     * Shapefiles converted to GeoJSON by instructor: https://github.com/umbcvis/projects/tree/master/nohevog1
+    * To be able to overlay them with the basemap, the shapefiles, which were in the WGS_1984_UTM_Zone_31N projection, had to be unprojected in WGS_1984 (Lat, Lon).
     * Shapefiles also converted to GeoJSON by Nohemi V. using ogre.adc4gis.com: https://github.com/nohevog1/Classes
     * The shapefiles were modified in ArcMAP 10.3 to add 2 fields to hold the links for the images and the urls for the "more info"
     * Most of the pictures are personal pictures acquired throughout my studies and my time in the field, but some pictures like the logo of the 2 parks were taken from the internet. 
